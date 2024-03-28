@@ -1,12 +1,20 @@
 import { useState } from "react";
 import Card from "./Card";
+import image11 from "/src/assets/11.png";
+import image12 from "/src/assets/12.png";
 
 const Fight = () => {
     const [playerNumber, setPlayerNumber] = useState(4);
     const [enemyNumber, setEnemyNumber] = useState(4);
+
+    const images: { [key: number]: string } = {
+        11: image11,
+        12: image12,
+    };
+
     return (
         <>
-            <div className="flex flex-col mt-10">
+            <div className="flex flex-col mt-10 items-center">
                 <h2 className="sm:text-center text-2xl font-bold mb-4 px-4">
                     Damage Probability Calculator
                 </h2>
@@ -33,8 +41,9 @@ const Fight = () => {
                 </div>
 
                 <img
-                    src={`/src/assets/${playerNumber}${enemyNumber}.png`}
+                    src={images[playerNumber * 10 + enemyNumber]}
                     alt={`Result of Player dice ${playerNumber} and Enemy dice ${enemyNumber}`}
+                    className=" max-w-120"
                 />
             </div>
         </>
