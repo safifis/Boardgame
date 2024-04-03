@@ -8,6 +8,10 @@ export default {
                 body: ["Roboto Slab", "serif"], // Use for body text
                 mono: ["Source Code Pro", "monospace"], // Use for displaying code or numbers
             },
+            colors: {
+                darkBlue: "#737CA9",
+                lightPink: "#FFBEBF",
+            },
         },
     },
     plugins: [],

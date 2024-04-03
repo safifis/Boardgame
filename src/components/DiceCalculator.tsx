@@ -33,18 +33,35 @@ const DiceCalculator = () => {
     };
 
     return (
-        <div className="dice-calculator max-w-md min-w-96 p-4">
-            <p>Select your dice value:</p>
-            <select value={number} onChange={handleNumber}>
-                {Array.from({ length: 8 }, (_, i) => (
-                    <option key={i + 1} value={i + 1}>
-                        {i + 1}
-                    </option>
-                ))}
-            </select>
-            <button onClick={handleShowImage}>Show Probability</button>
+        <div className="dice-calculator max-w-md min-w-96 p-4 border-2 border-gray-300 rounded-lg">
+            <p className="text-lg font-semibold mb-3">
+                Select your dice value:
+            </p>
+            <div className="mb-4">
+                <select
+                    className="block w-full p-2 border-2 border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    value={number}
+                    onChange={handleNumber}
+                >
+                    {Array.from({ length: 8 }, (_, i) => (
+                        <option key={i + 1} value={i + 1}>
+                            {i + 1}
+                        </option>
+                    ))}
+                </select>
+            </div>
+            <button
+                className="w-full p-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300"
+                onClick={handleShowImage}
+            >
+                Show Probability
+            </button>
             {showImage && (
-                <img src={images[number]} alt={`Dice showing ${number}`} />
+                <img
+                    className="mt-4 rounded-md"
+                    src={images[number]}
+                    alt={`Dice showing ${number}`}
+                />
             )}
         </div>
     );

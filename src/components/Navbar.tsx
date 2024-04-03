@@ -18,7 +18,7 @@ const Navbar = ({ title }: Props) => {
                     <div className="flex space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <button
                             type="button"
-                            className="text-white font-bold bg-white-800 hover:bg-yellow-800 focus:ring-4 rounded-lg text-sm px-4 py-2 text-center"
+                            className="text-white font-bold bg-white-800 bg-darkBlue hover:bg-transparent focus:ring-4 rounded-lg text-sm px-4 py-2 text-center"
                         >
                             Home
                         </button>
@@ -31,7 +31,7 @@ const Navbar = ({ title }: Props) => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-800 md:p-0 "
+                                    className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-darkBlue md:p-0 "
                                 >
                                     About
                                 </a>
@@ -39,7 +39,7 @@ const Navbar = ({ title }: Props) => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-800 md:p-0"
+                                    className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-darkBlue md:p-0"
                                 >
                                     Contact
                                 </a>
