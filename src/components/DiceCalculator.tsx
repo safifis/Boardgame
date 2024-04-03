@@ -4,9 +4,9 @@ import image2 from "/src/assets/2.png";
 import image3 from "/src/assets/3.png";
 import image4 from "/src/assets/4.png";
 import image5 from "/src/assets/5.png";
-import image6 from "/src/assets/6.png";
-import image7 from "/src/assets/7.png";
-import image8 from "/src/assets/8.png";
+import image6 from "/src/assets/6.jpg";
+import image7 from "/src/assets/7.jpg";
+import image8 from "/src/assets/8.jpg";
 
 const DiceCalculator = () => {
     const [number, setNumber] = useState(1);

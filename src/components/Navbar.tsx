@@ -11,7 +11,7 @@ const Navbar = ({ title }: Props) => {
                         href="#"
                         className=" font-header flex items-center space-x-3 rtl:space-x-reverse md:order-1"
                     >
-                        <span className="text-white self-center text-4xl font-semibold whitespace-nowrap">
+                        <span className="text-white self-center text-2xl md:text-4xl font-semibold whitespace-nowrap">
                             {title}
                         </span>
                     </a>
