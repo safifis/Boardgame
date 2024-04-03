@@ -1,5 +1,4 @@
 import backgroundL from "/src/assets/background_l.png";
-import backgroundS from "/src/assets/background_s.png";
 
 const Hero = () => {
     return (
