@@ -9,16 +9,16 @@ const Navbar = ({ title }: Props) => {
                 <div className="h-16 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a
                         href="#"
-                        className="flex items-center space-x-3 rtl:space-x-reverse md:order-1"
+                        className=" font-header flex items-center space-x-3 rtl:space-x-reverse md:order-1"
                     >
-                        <span className="text-white self-center text-2xl font-semibold whitespace-nowrap">
+                        <span className="text-white self-center text-4xl font-semibold whitespace-nowrap">
                             {title}
                         </span>
                     </a>
                     <div className="flex space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <button
                             type="button"
-                            className="text-white bg-white-800 hover:bg-yellow-800 focus:ring-4 font-medium rounded-lg text-sm px-4 py-2 text-center"
+                            className="text-white font-bold bg-white-800 hover:bg-yellow-800 focus:ring-4 rounded-lg text-sm px-4 py-2 text-center"
                         >
                             Home
                         </button>

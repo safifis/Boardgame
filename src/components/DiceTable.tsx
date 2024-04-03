@@ -1,7 +1,7 @@
 const DiceTable = () => {
     return (
         <div className="relative overflow-x-auto max-w-md min-w-96 p-4">
-            <table className="w-full text-sm text-left rtl:text-right ">
+            <table className=" font-mono w-full text-sm text-left rtl:text-right ">
                 <thead className="text-xs  uppercase">
                     <th scope="col">Value</th>
                     <th scope="col">1 Dice</th>
