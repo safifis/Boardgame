@@ -10,7 +10,7 @@ export default {
             },
             colors: {
                 darkBlue: "#737CA9",
-                lightPink: "#FFBEBF",
+                lightPink: "#9E558B",
             },
         },
     },

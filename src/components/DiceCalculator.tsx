@@ -34,24 +34,24 @@ const DiceCalculator = () => {
 
     return (
         <div className="dice-calculator max-w-md min-w-96 p-4 border-2 border-gray-300 rounded-lg">
-            <p className="text-lg font-semibold mb-3">
+            <p className="text-lg font-semibold mb-3 font-body">
                 Select your dice value:
             </p>
             <div className="mb-4">
                 <select
-                    className="block w-full p-2 border-2 border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="block w-full p-2 border-2 border-gray-300 bg-black rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-darkBlue focus:border-darkBlue"
                     value={number}
                     onChange={handleNumber}
                 >
                     {Array.from({ length: 8 }, (_, i) => (
-                        <option key={i + 1} value={i + 1}>
+                        <option className="" key={i + 1} value={i + 1}>
                             {i + 1}
                         </option>
                     ))}
                 </select>
             </div>
             <button
-                className="w-full p-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300"
+                className="font-body w-full p-2 text-white bg-darkBlue rounded-md hover:bg-lightPink focus:outline-none focus:ring-4 focus:ring-lightPink"
                 onClick={handleShowImage}
             >
                 Show Probability

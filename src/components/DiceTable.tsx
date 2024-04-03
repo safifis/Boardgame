@@ -14,7 +14,7 @@ const DiceTable = () => {
                     <th scope="col">8 Dice</th>
                 </thead>
                 <tr>
-                    <th scope="row">{"2"}=0</th>
+                    <th scope="row">{">"}=0</th>
                     <td className="px-2 py-1">100%</td>
                     <td className="px-2 py-1">100%</td>
                     <td className="px-2 py-1">100%</td>
@@ -25,7 +25,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">100%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=1</th>
+                    <th scope="row">{">"}=1</th>
                     <td className="px-2 py-1">67%</td>
                     <td className="px-2 py-1">89%</td>
                     <td className="px-2 py-1">96%</td>
@@ -36,7 +36,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">100%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=2</th>
+                    <th scope="row">{">"}=2</th>
                     <td className="px-2 py-1">33%</td>
                     <td className="px-2 py-1">67%</td>
                     <td className="px-2 py-1">85%</td>
@@ -47,7 +47,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">100%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=3</th>
+                    <th scope="row">{">"}=3</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1">33%</td>
                     <td className="px-2 py-1">63%</td>
@@ -58,7 +58,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">99%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=4</th>
+                    <th scope="row">{">"}=4</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1">11%</td>
                     <td className="px-2 py-1">37%</td>
@@ -69,7 +69,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">98%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=5</th>
+                    <th scope="row">{">"}=5</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1">15%</td>
@@ -80,7 +80,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">94%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=6</th>
+                    <th scope="row">{">"}=6</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1">3.7%</td>
@@ -91,7 +91,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">86%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=7</th>
+                    <th scope="row">{">"}=7</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
@@ -102,7 +102,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">74%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=8</th>
+                    <th scope="row">{">"}=8</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
@@ -113,7 +113,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">58%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=9</th>
+                    <th scope="row">{">"}=9</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
@@ -124,7 +124,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">42%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=10</th>
+                    <th scope="row">{">"}=10</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
@@ -135,7 +135,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">26%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=11</th>
+                    <th scope="row">{">"}=11</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
@@ -146,7 +146,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">14%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=12</th>
+                    <th scope="row">{">"}=12</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
@@ -157,7 +157,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">6.4%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=13</th>
+                    <th scope="row">{">"}=13</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
@@ -168,7 +168,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">2.4%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=14</th>
+                    <th scope="row">{">"}=14</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
@@ -179,7 +179,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">0.7%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=15</th>
+                    <th scope="row">{">"}=15</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
@@ -190,7 +190,7 @@ const DiceTable = () => {
                     <td className="px-2 py-1">0.1%</td>
                 </tr>
                 <tr>
-                    <th scope="row">{"2"}=16</th>
+                    <th scope="row">{">"}=16</th>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
                     <td className="px-2 py-1"></td>
