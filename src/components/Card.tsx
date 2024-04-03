@@ -1,3 +1,5 @@
+import dice from "/src/assets/dice.png";
+
 interface Props {
     title: string;
     number: number;
@@ -18,14 +20,14 @@ const Card = ({ title, number, setNumber }: Props) => {
     };
 
     return (
-        <div className=" p-8 w-80 bg-white border border-gray-200 rounded-lg shadow">
+        <div className=" p-8 w-80 border border-gray-200 rounded-lg shadow">
             <div className="flex flex-col items-center p-2">
                 <img
                     className="w-24 h-24 mb-3 rounded-full shadow-lg"
-                    src="/docs/images/people/profile-picture-3.jpg"
-                    alt="Player Image"
+                    src={dice}
+                    alt="Dice Image"
                 />
-                <h3 className="uppercase mb-1 text-xl font-medium text-gray-900">
+                <h3 className="uppercase mb-1 text-xl font-medium">
                     {title} Dice
                 </h3>
             </div>
@@ -33,7 +35,7 @@ const Card = ({ title, number, setNumber }: Props) => {
                 <button
                     type="button"
                     onClick={minusNumber}
-                    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2"
+                    className="text-white bg-darkBlue hover:bg-lightPink focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2"
                 >
                     <svg
                         className="w-4 h-4"
@@ -52,11 +54,11 @@ const Card = ({ title, number, setNumber }: Props) => {
                     </svg>
                     <span className="sr-only">Icon description</span>
                 </button>
-                <span className="text-2xl text-black m-4 mr-6">{number}</span>
+                <span className="text-2xl m-4 mr-6">{number}</span>
                 <button
                     type="button"
                     onClick={plusNumber}
-                    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2"
+                    className="text-white bg-darkBlue hover:bg-lightPink focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2"
                 >
                     <svg
                         className="w-4 h-4"
