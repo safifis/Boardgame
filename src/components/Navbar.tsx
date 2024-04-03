@@ -5,7 +5,7 @@ interface Props {
 const Navbar = ({ title }: Props) => {
     return (
         <>
-            <nav className="fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+            <nav className="w-full z-20 top-0 start-0">
                 <div className="h-16 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a
                         href="#"
