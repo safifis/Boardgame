@@ -1,9 +1,9 @@
 import { useState, ChangeEvent } from "react";
-import image1 from "/src/assets/1.png";
-import image2 from "/src/assets/2.png";
-import image3 from "/src/assets/3.png";
-import image4 from "/src/assets/4.png";
-import image5 from "/src/assets/5.png";
+import image1 from "/src/assets/1.jpg";
+import image2 from "/src/assets/2.jpg";
+import image3 from "/src/assets/3.jpg";
+import image4 from "/src/assets/4.jpg";
+import image5 from "/src/assets/5.jpg";
 import image6 from "/src/assets/6.jpg";
 import image7 from "/src/assets/7.jpg";
 import image8 from "/src/assets/8.jpg";

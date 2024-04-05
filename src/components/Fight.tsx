@@ -1,7 +1,11 @@
 import { useState } from "react";
 import Card from "./Card";
-import image11 from "/src/assets/11.png";
-import image12 from "/src/assets/12.png";
+import image11 from "/src/assets/11.jpg";
+import image12 from "/src/assets/12.jpg";
+import image13 from "/src/assets/13.jpg";
+import image14 from "/src/assets/14.jpg";
+import image15 from "/src/assets/15.jpg";
+import image16 from "/src/assets/16.jpg";
 
 const Fight = () => {
     const [playerNumber, setPlayerNumber] = useState(4);
@@ -10,6 +14,10 @@ const Fight = () => {
     const images: { [key: number]: string } = {
         11: image11,
         12: image12,
+        13: image13,
+        14: image14,
+        15: image15,
+        16: image16,
     };
 
     return (
