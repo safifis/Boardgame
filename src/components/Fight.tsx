@@ -29,7 +29,7 @@ const Fight = () => {
                 <p className="font-body text-center text-md font-bold mb-4 px-8">
                     The Damage Probability Calculator displays the probability
                     of damage player can cause to the enemy using arbitrary
-                    numbers of dices.
+                    numbers of dices. The probabilities are calculated by running simulations 1000 times for each chart.
                 </p>
                 <div className="p-4 flex flex-col sm:flex-row justify-center items-center mx-auto">
                     <div className="flex-1 m-4">
